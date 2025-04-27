@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -3440,7 +3440,7 @@ namespace CS2Dumper.Schemas {
         public static class CFuncTrackChange {
             public const nint m_trackTop = 0x858; // CPathTrack*
             public const nint m_trackBottom = 0x860; // CPathTrack*
-            public const nint m_train = 0x868; // CFuncTrackTrain*
+            public const nint m_train = 0x868; // 
             public const nint m_trackTopName = 0x870; // CUtlSymbolLarge
             public const nint m_trackBottomName = 0x878; // CUtlSymbolLarge
             public const nint m_trainName = 0x880; // CUtlSymbolLarge
@@ -3629,7 +3629,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nTickBase = 0x4F0; // uint32
             public const nint m_hPawn = 0x520; // CHandle<CBasePlayerPawn>
             public const nint m_bKnownTeamMismatch = 0x524; // bool
-            public const nint m_nSplitScreenSlot = 0x528; // 
+            public const nint m_nSplitScreenSlot = 0x528; // CSplitScreenSlot
             public const nint m_hSplitOwner = 0x52C; // CHandle<CBasePlayerController>
             public const nint m_hSplitScreenPlayers = 0x530; // CUtlVector<CHandle<CBasePlayerController>>
             public const nint m_bIsHLTV = 0x548; // bool
@@ -3641,7 +3641,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bPredict = 0x5DD; // bool
             public const nint m_bIsLowViolence = 0x5E4; // bool
             public const nint m_bGamePaused = 0x5E5; // bool
-            public const nint m_iIgnoreGlobalChat = 0x720; // ChatIgnoreType_t
+            public const nint m_iIgnoreGlobalChat = 0x720; // 
             public const nint m_flLastPlayerTalkTime = 0x724; // float32
             public const nint m_flLastEntitySteadyState = 0x728; // float32
             public const nint m_nAvailableEntitySteadyState = 0x72C; // int32
@@ -3693,8 +3693,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_flNextMoveSoundTime = 0x828; // GameTime_t
             public const nint m_flMoveSoundMinPitch = 0x82C; // float32
             public const nint m_flMoveSoundMaxPitch = 0x830; // float32
-            public const nint m_eOrientationType = 0x834; // 
-            public const nint m_eVelocityType = 0x838; // 
+            public const nint m_eOrientationType = 0x834; // TrainOrientationType_t
+            public const nint m_eVelocityType = 0x838; // TrainVelocityType_t
             public const nint m_OnStart = 0x848; // CEntityIOOutput
             public const nint m_OnNext = 0x870; // CEntityIOOutput
             public const nint m_OnArrivedAtDestinationNode = 0x898; // CEntityIOOutput
@@ -3722,7 +3722,7 @@ namespace CS2Dumper.Schemas {
         // Parent: CBaseModelEntity
         // Field count: 19
         public static class CFire {
-            public const nint m_hEffect = 0x790; // CHandle<CBaseFire>
+            public const nint m_hEffect = 0x790; // 
             public const nint m_hOwner = 0x794; // CHandle<CBaseEntity>
             public const nint m_nFireType = 0x798; // int32
             public const nint m_flFuel = 0x79C; // float32
@@ -8034,7 +8034,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_pOutputOnSpawned = 0x500; // CEntityIOOutput
             public const nint m_clientOnlyEntityBehavior = 0x528; // PointTemplateClientOnlyEntityBehavior_t
             public const nint m_ownerSpawnGroupType = 0x52C; // PointTemplateOwnerSpawnGroupType_t
-            public const nint m_createdSpawnGroupHandles = 0x530; // CUtlVector<uint32>
+            public const nint m_createdSpawnGroupHandles = 0x530; // 
             public const nint m_SpawnedEntityHandles = 0x548; // CUtlVector<CEntityHandle>
             public const nint m_ScriptSpawnCallback = 0x560; // HSCRIPT
             public const nint m_ScriptCallbackScope = 0x568; // HSCRIPT
@@ -8309,7 +8309,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
         // NetworkVarNames: m_noGhostCollision (bool)
         public static class CBreakableProp {
-            public const nint m_CPropDataComponent = 0x9F0; // CPropDataComponent
+            public const nint m_CPropDataComponent = 0x9F0; // 
             public const nint m_OnBreak = 0xA30; // CEntityIOOutput
             public const nint m_OnHealthChanged = 0xA58; // CEntityOutputTemplate<float32>
             public const nint m_OnTakeDamage = 0xA80; // CEntityIOOutput
@@ -8322,7 +8322,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_hBreaker = 0xAD0; // CHandle<CBaseEntity>
             public const nint m_PerformanceMode = 0xAD4; // PerformanceMode_t
             public const nint m_flPreventDamageBeforeTime = 0xAD8; // GameTime_t
-            public const nint m_BreakableContentsType = 0xADC; // BreakableContentsType_t
+            public const nint m_BreakableContentsType = 0xADC; // 
             public const nint m_strBreakableContentsPropGroupOverride = 0xAE0; // CUtlString
             public const nint m_strBreakableContentsParticleOverride = 0xAE8; // CUtlString
             public const nint m_bHasBreakPiecesOrCommands = 0xAF0; // bool
@@ -8371,7 +8371,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_impactEnergyScale = 0xA58; // float32
             public const nint m_bApplyStressDamage = 0xA5C; // bool
             public const nint m_iDamageCount = 0xAA0; // int32
-            public const nint m_pVecRelationships = 0xAA8; // 
+            public const nint m_pVecRelationships = 0xAA8; // CUtlVector<RelationshipOverride_t>*
             public const nint m_strRelationships = 0xAB0; // CUtlSymbolLarge
             public const nint m_eHull = 0xAB8; // Hull_t
             public const nint m_nNavHullIdx = 0xABC; // uint32
@@ -8791,7 +8791,7 @@ namespace CS2Dumper.Schemas {
         public static class CFuncShatterglass {
             public const nint m_matPanelTransform = 0x790; // matrix3x4_t
             public const nint m_matPanelTransformWsTemp = 0x7C0; // matrix3x4_t
-            public const nint m_vecShatterGlassShards = 0x7F0; // CUtlVector<uint32>
+            public const nint m_vecShatterGlassShards = 0x7F0; // 
             public const nint m_PanelSize = 0x808; // Vector2D
             public const nint m_flLastShatterSoundEmitTime = 0x810; // GameTime_t
             public const nint m_flLastCleanupTime = 0x814; // GameTime_t
@@ -9004,7 +9004,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
         public static class CBreakable {
-            public const nint m_CPropDataComponent = 0x798; // CPropDataComponent
+            public const nint m_CPropDataComponent = 0x798; // 
             public const nint m_Material = 0x7D8; // Materials
             public const nint m_hBreaker = 0x7DC; // CHandle<CBaseEntity>
             public const nint m_Explosion = 0x7E0; // Explosions
@@ -10953,7 +10953,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_nBloodType (BloodType)
         public static class CBaseEntity {
             public const nint m_CBodyComponent = 0x38; // CBodyComponent*
-            public const nint m_NetworkTransmitComponent = 0x40; // 
+            public const nint m_NetworkTransmitComponent = 0x40; // CNetworkTransmitComponent
             public const nint m_aThinkFunctions = 0x240; // CUtlVector<thinkfunc_t>
             public const nint m_iCurrentThinkContext = 0x258; // int32
             public const nint m_nLastThinkTick = 0x25C; // GameTick_t

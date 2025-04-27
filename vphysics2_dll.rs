@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -116,7 +116,7 @@ pub mod cs2_dumper {
                 pub const m_Quads: usize = 0xA8; // CUtlVector<FeQuad_t>
                 pub const m_SimdQuads: usize = 0xC0; // CUtlVector<FeSimdQuad_t>
                 pub const m_SimdTris: usize = 0xD8; // CUtlVector<FeSimdTri_t>
-                pub const m_SimdRods: usize = 0xF0; // 
+                pub const m_SimdRods: usize = 0xF0; // CUtlVector<FeSimdRodConstraint_t>
                 pub const m_SimdRodsAnim: usize = 0x108; // CUtlVector<FeSimdRodConstraintAnim_t>
                 pub const m_InitPose: usize = 0x120; // CUtlVector<CTransform>
                 pub const m_Rods: usize = 0x138; // CUtlVector<FeRodConstraint_t>
@@ -644,7 +644,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CRegionSVM {
-                pub const m_Planes: usize = 0x0; // CUtlVector<RnPlane_t>
+                pub const m_Planes: usize = 0x0; // 
                 pub const m_Nodes: usize = 0x18; // CUtlVector<uint32>
             }
             // Parent: None
@@ -953,8 +953,8 @@ pub mod cs2_dumper {
                 pub const m_Vertices: usize = 0x70; // 
                 pub const m_VertexPositions: usize = 0x88; // CUtlVector<Vector>
                 pub const m_Edges: usize = 0xA0; // 
-                pub const m_Faces: usize = 0xB8; // 
-                pub const m_FacePlanes: usize = 0xD0; // CUtlVector<RnPlane_t>
+                pub const m_Faces: usize = 0xB8; // CUtlVector<RnFace_t>
+                pub const m_FacePlanes: usize = 0xD0; // 
                 pub const m_nFlags: usize = 0xE8; // uint32
                 pub const m_pRegionSVM: usize = 0xF0; // CRegionSVM*
             }

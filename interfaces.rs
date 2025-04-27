@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -12,14 +12,14 @@ pub mod cs2_dumper {
         }
         // Module: client.dll
         pub mod client_dll {
-            pub const ClientToolsInfo_001: usize = 0x186BE40;
-            pub const EmptyWorldService001_Client: usize = 0x1828090;
-            pub const GameClientExports001: usize = 0x1868AF8;
-            pub const LegacyGameUI001: usize = 0x18896A0;
-            pub const Source2Client002: usize = 0x1A827A0;
-            pub const Source2ClientConfig001: usize = 0x1A1B370;
-            pub const Source2ClientPrediction001: usize = 0x1873ED0;
-            pub const Source2ClientUI001: usize = 0x1887A70;
+            pub const ClientToolsInfo_001: usize = 0x186BE30;
+            pub const EmptyWorldService001_Client: usize = 0x1828080;
+            pub const GameClientExports001: usize = 0x1868AE8;
+            pub const LegacyGameUI001: usize = 0x1889690;
+            pub const Source2Client002: usize = 0x1A826E0;
+            pub const Source2ClientConfig001: usize = 0x1A1B2B0;
+            pub const Source2ClientPrediction001: usize = 0x1873EC0;
+            pub const Source2ClientUI001: usize = 0x1887A60;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
@@ -184,27 +184,27 @@ pub mod cs2_dumper {
         }
         // Module: steamclient64.dll
         pub mod steamclient64_dll {
-            pub const CLIENTENGINE_INTERFACE_VERSION005: usize = 0xFFFFFFFF8BB038DA;
-            pub const IVALIDATE001: usize = 0x15246E8;
-            pub const SteamClient006: usize = 0x1521E10;
-            pub const SteamClient007: usize = 0x1521E18;
-            pub const SteamClient008: usize = 0x1521E20;
-            pub const SteamClient009: usize = 0x1521E28;
-            pub const SteamClient010: usize = 0x1521E30;
-            pub const SteamClient011: usize = 0x1521E38;
-            pub const SteamClient012: usize = 0x1521E40;
-            pub const SteamClient013: usize = 0x1521E48;
-            pub const SteamClient014: usize = 0x1521E50;
-            pub const SteamClient015: usize = 0x1521E58;
-            pub const SteamClient016: usize = 0x1521E60;
-            pub const SteamClient017: usize = 0x1521E68;
-            pub const SteamClient018: usize = 0x1521E70;
-            pub const SteamClient019: usize = 0x1521E78;
-            pub const SteamClient020: usize = 0x1521E80;
-            pub const SteamClient021: usize = 0x1521E88;
-            pub const SteamClient022: usize = 0x1521E90;
-            pub const p2pvoice002: usize = 0x14E297F;
-            pub const p2pvoicesingleton002: usize = 0x14FF0E0;
+            pub const CLIENTENGINE_INTERFACE_VERSION005: usize = 0xFFFFFFFF8BAFD61A;
+            pub const IVALIDATE001: usize = 0x151D288;
+            pub const SteamClient006: usize = 0x151A9B0;
+            pub const SteamClient007: usize = 0x151A9B8;
+            pub const SteamClient008: usize = 0x151A9C0;
+            pub const SteamClient009: usize = 0x151A9C8;
+            pub const SteamClient010: usize = 0x151A9D0;
+            pub const SteamClient011: usize = 0x151A9D8;
+            pub const SteamClient012: usize = 0x151A9E0;
+            pub const SteamClient013: usize = 0x151A9E8;
+            pub const SteamClient014: usize = 0x151A9F0;
+            pub const SteamClient015: usize = 0x151A9F8;
+            pub const SteamClient016: usize = 0x151AA00;
+            pub const SteamClient017: usize = 0x151AA08;
+            pub const SteamClient018: usize = 0x151AA10;
+            pub const SteamClient019: usize = 0x151AA18;
+            pub const SteamClient020: usize = 0x151AA20;
+            pub const SteamClient021: usize = 0x151AA28;
+            pub const SteamClient022: usize = 0x151AA30;
+            pub const p2pvoice002: usize = 0x14E267F;
+            pub const p2pvoicesingleton002: usize = 0x14F80E0;
         }
         // Module: tier0.dll
         pub mod tier0_dll {

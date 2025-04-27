@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -3547,7 +3547,7 @@ pub mod cs2_dumper {
             pub mod CFuncTrackChange {
                 pub const m_trackTop: usize = 0x858; // CPathTrack*
                 pub const m_trackBottom: usize = 0x860; // CPathTrack*
-                pub const m_train: usize = 0x868; // CFuncTrackTrain*
+                pub const m_train: usize = 0x868; // 
                 pub const m_trackTopName: usize = 0x870; // CUtlSymbolLarge
                 pub const m_trackBottomName: usize = 0x878; // CUtlSymbolLarge
                 pub const m_trainName: usize = 0x880; // CUtlSymbolLarge
@@ -3736,7 +3736,7 @@ pub mod cs2_dumper {
                 pub const m_nTickBase: usize = 0x4F0; // uint32
                 pub const m_hPawn: usize = 0x520; // CHandle<CBasePlayerPawn>
                 pub const m_bKnownTeamMismatch: usize = 0x524; // bool
-                pub const m_nSplitScreenSlot: usize = 0x528; // 
+                pub const m_nSplitScreenSlot: usize = 0x528; // CSplitScreenSlot
                 pub const m_hSplitOwner: usize = 0x52C; // CHandle<CBasePlayerController>
                 pub const m_hSplitScreenPlayers: usize = 0x530; // CUtlVector<CHandle<CBasePlayerController>>
                 pub const m_bIsHLTV: usize = 0x548; // bool
@@ -3748,7 +3748,7 @@ pub mod cs2_dumper {
                 pub const m_bPredict: usize = 0x5DD; // bool
                 pub const m_bIsLowViolence: usize = 0x5E4; // bool
                 pub const m_bGamePaused: usize = 0x5E5; // bool
-                pub const m_iIgnoreGlobalChat: usize = 0x720; // ChatIgnoreType_t
+                pub const m_iIgnoreGlobalChat: usize = 0x720; // 
                 pub const m_flLastPlayerTalkTime: usize = 0x724; // float32
                 pub const m_flLastEntitySteadyState: usize = 0x728; // float32
                 pub const m_nAvailableEntitySteadyState: usize = 0x72C; // int32
@@ -3800,8 +3800,8 @@ pub mod cs2_dumper {
                 pub const m_flNextMoveSoundTime: usize = 0x828; // GameTime_t
                 pub const m_flMoveSoundMinPitch: usize = 0x82C; // float32
                 pub const m_flMoveSoundMaxPitch: usize = 0x830; // float32
-                pub const m_eOrientationType: usize = 0x834; // 
-                pub const m_eVelocityType: usize = 0x838; // 
+                pub const m_eOrientationType: usize = 0x834; // TrainOrientationType_t
+                pub const m_eVelocityType: usize = 0x838; // TrainVelocityType_t
                 pub const m_OnStart: usize = 0x848; // CEntityIOOutput
                 pub const m_OnNext: usize = 0x870; // CEntityIOOutput
                 pub const m_OnArrivedAtDestinationNode: usize = 0x898; // CEntityIOOutput
@@ -3829,7 +3829,7 @@ pub mod cs2_dumper {
             // Parent: CBaseModelEntity
             // Field count: 19
             pub mod CFire {
-                pub const m_hEffect: usize = 0x790; // CHandle<CBaseFire>
+                pub const m_hEffect: usize = 0x790; // 
                 pub const m_hOwner: usize = 0x794; // CHandle<CBaseEntity>
                 pub const m_nFireType: usize = 0x798; // int32
                 pub const m_flFuel: usize = 0x79C; // float32
@@ -8141,7 +8141,7 @@ pub mod cs2_dumper {
                 pub const m_pOutputOnSpawned: usize = 0x500; // CEntityIOOutput
                 pub const m_clientOnlyEntityBehavior: usize = 0x528; // PointTemplateClientOnlyEntityBehavior_t
                 pub const m_ownerSpawnGroupType: usize = 0x52C; // PointTemplateOwnerSpawnGroupType_t
-                pub const m_createdSpawnGroupHandles: usize = 0x530; // CUtlVector<uint32>
+                pub const m_createdSpawnGroupHandles: usize = 0x530; // 
                 pub const m_SpawnedEntityHandles: usize = 0x548; // CUtlVector<CEntityHandle>
                 pub const m_ScriptSpawnCallback: usize = 0x560; // HSCRIPT
                 pub const m_ScriptCallbackScope: usize = 0x568; // HSCRIPT
@@ -8416,7 +8416,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
             // NetworkVarNames: m_noGhostCollision (bool)
             pub mod CBreakableProp {
-                pub const m_CPropDataComponent: usize = 0x9F0; // CPropDataComponent
+                pub const m_CPropDataComponent: usize = 0x9F0; // 
                 pub const m_OnBreak: usize = 0xA30; // CEntityIOOutput
                 pub const m_OnHealthChanged: usize = 0xA58; // CEntityOutputTemplate<float32>
                 pub const m_OnTakeDamage: usize = 0xA80; // CEntityIOOutput
@@ -8429,7 +8429,7 @@ pub mod cs2_dumper {
                 pub const m_hBreaker: usize = 0xAD0; // CHandle<CBaseEntity>
                 pub const m_PerformanceMode: usize = 0xAD4; // PerformanceMode_t
                 pub const m_flPreventDamageBeforeTime: usize = 0xAD8; // GameTime_t
-                pub const m_BreakableContentsType: usize = 0xADC; // BreakableContentsType_t
+                pub const m_BreakableContentsType: usize = 0xADC; // 
                 pub const m_strBreakableContentsPropGroupOverride: usize = 0xAE0; // CUtlString
                 pub const m_strBreakableContentsParticleOverride: usize = 0xAE8; // CUtlString
                 pub const m_bHasBreakPiecesOrCommands: usize = 0xAF0; // bool
@@ -8478,7 +8478,7 @@ pub mod cs2_dumper {
                 pub const m_impactEnergyScale: usize = 0xA58; // float32
                 pub const m_bApplyStressDamage: usize = 0xA5C; // bool
                 pub const m_iDamageCount: usize = 0xAA0; // int32
-                pub const m_pVecRelationships: usize = 0xAA8; // 
+                pub const m_pVecRelationships: usize = 0xAA8; // CUtlVector<RelationshipOverride_t>*
                 pub const m_strRelationships: usize = 0xAB0; // CUtlSymbolLarge
                 pub const m_eHull: usize = 0xAB8; // Hull_t
                 pub const m_nNavHullIdx: usize = 0xABC; // uint32
@@ -8898,7 +8898,7 @@ pub mod cs2_dumper {
             pub mod CFuncShatterglass {
                 pub const m_matPanelTransform: usize = 0x790; // matrix3x4_t
                 pub const m_matPanelTransformWsTemp: usize = 0x7C0; // matrix3x4_t
-                pub const m_vecShatterGlassShards: usize = 0x7F0; // CUtlVector<uint32>
+                pub const m_vecShatterGlassShards: usize = 0x7F0; // 
                 pub const m_PanelSize: usize = 0x808; // Vector2D
                 pub const m_flLastShatterSoundEmitTime: usize = 0x810; // GameTime_t
                 pub const m_flLastCleanupTime: usize = 0x814; // GameTime_t
@@ -9111,7 +9111,7 @@ pub mod cs2_dumper {
             // Metadata:
             // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
             pub mod CBreakable {
-                pub const m_CPropDataComponent: usize = 0x798; // CPropDataComponent
+                pub const m_CPropDataComponent: usize = 0x798; // 
                 pub const m_Material: usize = 0x7D8; // Materials
                 pub const m_hBreaker: usize = 0x7DC; // CHandle<CBaseEntity>
                 pub const m_Explosion: usize = 0x7E0; // Explosions
@@ -11060,7 +11060,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_nBloodType (BloodType)
             pub mod CBaseEntity {
                 pub const m_CBodyComponent: usize = 0x38; // CBodyComponent*
-                pub const m_NetworkTransmitComponent: usize = 0x40; // 
+                pub const m_NetworkTransmitComponent: usize = 0x40; // CNetworkTransmitComponent
                 pub const m_aThinkFunctions: usize = 0x240; // CUtlVector<thinkfunc_t>
                 pub const m_iCurrentThinkContext: usize = 0x258; // int32
                 pub const m_nLastThinkTick: usize = 0x25C; // GameTick_t

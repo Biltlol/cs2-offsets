@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2713,7 +2713,7 @@ pub mod cs2_dumper {
                 pub const m_bCanFreeze: usize = 0x7E; // bool
                 pub const m_LastMin: usize = 0x80; // Vector
                 pub const m_LastMax: usize = 0x8C; // Vector
-                pub const m_nSplitScreenUser: usize = 0x98; // 
+                pub const m_nSplitScreenUser: usize = 0x98; // CSplitScreenSlot
                 pub const m_vecAggregationCenter: usize = 0x9C; // Vector
                 pub const m_RefCount: usize = 0xC0; // int32
             }
@@ -4183,7 +4183,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleTransformInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleTransformType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_bFollowNamedValue: usize = 0x58; // bool
                 pub const m_bSupportsDisabled: usize = 0x59; // bool
@@ -4833,7 +4833,7 @@ pub mod cs2_dumper {
                 pub const m_InputMagnitude: usize = 0x328; // CPerParticleFloatInput
                 pub const m_nFalloffFunction: usize = 0x488; // ParticleFalloffFunction_t
                 pub const m_InputFalloffExp: usize = 0x490; // CPerParticleFloatInput
-                pub const m_nImpulseType: usize = 0x5F0; // 
+                pub const m_nImpulseType: usize = 0x5F0; // ParticleImpulseType_t
             }
             // Parent: CParticleFunctionForce
             // Field count: 3
@@ -5880,7 +5880,7 @@ pub mod cs2_dumper {
                 pub const m_bNoiseImgPreviewLive: usize = 0xD4; // bool
                 pub const m_flNoCameraFallback: usize = 0xE0; // float32
                 pub const m_bUseBoundsCenter: usize = 0xE4; // bool
-                pub const m_nInputMode: usize = 0xE8; // ParticleFloatInputMode_t
+                pub const m_nInputMode: usize = 0xE8; // 
                 pub const m_flMultFactor: usize = 0xEC; // float32
                 pub const m_flInput0: usize = 0xF0; // float32
                 pub const m_flInput1: usize = 0xF4; // float32

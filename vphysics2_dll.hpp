@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #pragma once
 
@@ -116,7 +116,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Quads = 0xA8; // CUtlVector<FeQuad_t>
                 constexpr std::ptrdiff_t m_SimdQuads = 0xC0; // CUtlVector<FeSimdQuad_t>
                 constexpr std::ptrdiff_t m_SimdTris = 0xD8; // CUtlVector<FeSimdTri_t>
-                constexpr std::ptrdiff_t m_SimdRods = 0xF0; // 
+                constexpr std::ptrdiff_t m_SimdRods = 0xF0; // CUtlVector<FeSimdRodConstraint_t>
                 constexpr std::ptrdiff_t m_SimdRodsAnim = 0x108; // CUtlVector<FeSimdRodConstraintAnim_t>
                 constexpr std::ptrdiff_t m_InitPose = 0x120; // CUtlVector<CTransform>
                 constexpr std::ptrdiff_t m_Rods = 0x138; // CUtlVector<FeRodConstraint_t>
@@ -644,7 +644,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CRegionSVM {
-                constexpr std::ptrdiff_t m_Planes = 0x0; // CUtlVector<RnPlane_t>
+                constexpr std::ptrdiff_t m_Planes = 0x0; // 
                 constexpr std::ptrdiff_t m_Nodes = 0x18; // CUtlVector<uint32>
             }
             // Parent: None
@@ -953,8 +953,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Vertices = 0x70; // 
                 constexpr std::ptrdiff_t m_VertexPositions = 0x88; // CUtlVector<Vector>
                 constexpr std::ptrdiff_t m_Edges = 0xA0; // 
-                constexpr std::ptrdiff_t m_Faces = 0xB8; // 
-                constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
+                constexpr std::ptrdiff_t m_Faces = 0xB8; // CUtlVector<RnFace_t>
+                constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // 
                 constexpr std::ptrdiff_t m_nFlags = 0xE8; // uint32
                 constexpr std::ptrdiff_t m_pRegionSVM = 0xF0; // CRegionSVM*
             }

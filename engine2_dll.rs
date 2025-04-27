@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -173,7 +173,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 1
             pub mod EventProfileStorageAvailable_t {
-                pub const m_nSplitScreenSlot: usize = 0x0; // 
+                pub const m_nSplitScreenSlot: usize = 0x0; // CSplitScreenSlot
             }
             // Parent: None
             // Field count: 1

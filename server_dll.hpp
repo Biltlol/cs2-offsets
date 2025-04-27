@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #pragma once
 
@@ -3445,7 +3445,7 @@ namespace cs2_dumper {
             namespace CFuncTrackChange {
                 constexpr std::ptrdiff_t m_trackTop = 0x858; // CPathTrack*
                 constexpr std::ptrdiff_t m_trackBottom = 0x860; // CPathTrack*
-                constexpr std::ptrdiff_t m_train = 0x868; // CFuncTrackTrain*
+                constexpr std::ptrdiff_t m_train = 0x868; // 
                 constexpr std::ptrdiff_t m_trackTopName = 0x870; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_trackBottomName = 0x878; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_trainName = 0x880; // CUtlSymbolLarge
@@ -3634,7 +3634,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nTickBase = 0x4F0; // uint32
                 constexpr std::ptrdiff_t m_hPawn = 0x520; // CHandle<CBasePlayerPawn>
                 constexpr std::ptrdiff_t m_bKnownTeamMismatch = 0x524; // bool
-                constexpr std::ptrdiff_t m_nSplitScreenSlot = 0x528; // 
+                constexpr std::ptrdiff_t m_nSplitScreenSlot = 0x528; // CSplitScreenSlot
                 constexpr std::ptrdiff_t m_hSplitOwner = 0x52C; // CHandle<CBasePlayerController>
                 constexpr std::ptrdiff_t m_hSplitScreenPlayers = 0x530; // CUtlVector<CHandle<CBasePlayerController>>
                 constexpr std::ptrdiff_t m_bIsHLTV = 0x548; // bool
@@ -3646,7 +3646,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bPredict = 0x5DD; // bool
                 constexpr std::ptrdiff_t m_bIsLowViolence = 0x5E4; // bool
                 constexpr std::ptrdiff_t m_bGamePaused = 0x5E5; // bool
-                constexpr std::ptrdiff_t m_iIgnoreGlobalChat = 0x720; // ChatIgnoreType_t
+                constexpr std::ptrdiff_t m_iIgnoreGlobalChat = 0x720; // 
                 constexpr std::ptrdiff_t m_flLastPlayerTalkTime = 0x724; // float32
                 constexpr std::ptrdiff_t m_flLastEntitySteadyState = 0x728; // float32
                 constexpr std::ptrdiff_t m_nAvailableEntitySteadyState = 0x72C; // int32
@@ -3698,8 +3698,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flNextMoveSoundTime = 0x828; // GameTime_t
                 constexpr std::ptrdiff_t m_flMoveSoundMinPitch = 0x82C; // float32
                 constexpr std::ptrdiff_t m_flMoveSoundMaxPitch = 0x830; // float32
-                constexpr std::ptrdiff_t m_eOrientationType = 0x834; // 
-                constexpr std::ptrdiff_t m_eVelocityType = 0x838; // 
+                constexpr std::ptrdiff_t m_eOrientationType = 0x834; // TrainOrientationType_t
+                constexpr std::ptrdiff_t m_eVelocityType = 0x838; // TrainVelocityType_t
                 constexpr std::ptrdiff_t m_OnStart = 0x848; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_OnNext = 0x870; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_OnArrivedAtDestinationNode = 0x898; // CEntityIOOutput
@@ -3727,7 +3727,7 @@ namespace cs2_dumper {
             // Parent: CBaseModelEntity
             // Field count: 19
             namespace CFire {
-                constexpr std::ptrdiff_t m_hEffect = 0x790; // CHandle<CBaseFire>
+                constexpr std::ptrdiff_t m_hEffect = 0x790; // 
                 constexpr std::ptrdiff_t m_hOwner = 0x794; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_nFireType = 0x798; // int32
                 constexpr std::ptrdiff_t m_flFuel = 0x79C; // float32
@@ -8039,7 +8039,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_pOutputOnSpawned = 0x500; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_clientOnlyEntityBehavior = 0x528; // PointTemplateClientOnlyEntityBehavior_t
                 constexpr std::ptrdiff_t m_ownerSpawnGroupType = 0x52C; // PointTemplateOwnerSpawnGroupType_t
-                constexpr std::ptrdiff_t m_createdSpawnGroupHandles = 0x530; // CUtlVector<uint32>
+                constexpr std::ptrdiff_t m_createdSpawnGroupHandles = 0x530; // 
                 constexpr std::ptrdiff_t m_SpawnedEntityHandles = 0x548; // CUtlVector<CEntityHandle>
                 constexpr std::ptrdiff_t m_ScriptSpawnCallback = 0x560; // HSCRIPT
                 constexpr std::ptrdiff_t m_ScriptCallbackScope = 0x568; // HSCRIPT
@@ -8314,7 +8314,7 @@ namespace cs2_dumper {
             // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
             // NetworkVarNames: m_noGhostCollision (bool)
             namespace CBreakableProp {
-                constexpr std::ptrdiff_t m_CPropDataComponent = 0x9F0; // CPropDataComponent
+                constexpr std::ptrdiff_t m_CPropDataComponent = 0x9F0; // 
                 constexpr std::ptrdiff_t m_OnBreak = 0xA30; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_OnHealthChanged = 0xA58; // CEntityOutputTemplate<float32>
                 constexpr std::ptrdiff_t m_OnTakeDamage = 0xA80; // CEntityIOOutput
@@ -8327,7 +8327,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_hBreaker = 0xAD0; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_PerformanceMode = 0xAD4; // PerformanceMode_t
                 constexpr std::ptrdiff_t m_flPreventDamageBeforeTime = 0xAD8; // GameTime_t
-                constexpr std::ptrdiff_t m_BreakableContentsType = 0xADC; // BreakableContentsType_t
+                constexpr std::ptrdiff_t m_BreakableContentsType = 0xADC; // 
                 constexpr std::ptrdiff_t m_strBreakableContentsPropGroupOverride = 0xAE0; // CUtlString
                 constexpr std::ptrdiff_t m_strBreakableContentsParticleOverride = 0xAE8; // CUtlString
                 constexpr std::ptrdiff_t m_bHasBreakPiecesOrCommands = 0xAF0; // bool
@@ -8376,7 +8376,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_impactEnergyScale = 0xA58; // float32
                 constexpr std::ptrdiff_t m_bApplyStressDamage = 0xA5C; // bool
                 constexpr std::ptrdiff_t m_iDamageCount = 0xAA0; // int32
-                constexpr std::ptrdiff_t m_pVecRelationships = 0xAA8; // 
+                constexpr std::ptrdiff_t m_pVecRelationships = 0xAA8; // CUtlVector<RelationshipOverride_t>*
                 constexpr std::ptrdiff_t m_strRelationships = 0xAB0; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_eHull = 0xAB8; // Hull_t
                 constexpr std::ptrdiff_t m_nNavHullIdx = 0xABC; // uint32
@@ -8796,7 +8796,7 @@ namespace cs2_dumper {
             namespace CFuncShatterglass {
                 constexpr std::ptrdiff_t m_matPanelTransform = 0x790; // matrix3x4_t
                 constexpr std::ptrdiff_t m_matPanelTransformWsTemp = 0x7C0; // matrix3x4_t
-                constexpr std::ptrdiff_t m_vecShatterGlassShards = 0x7F0; // CUtlVector<uint32>
+                constexpr std::ptrdiff_t m_vecShatterGlassShards = 0x7F0; // 
                 constexpr std::ptrdiff_t m_PanelSize = 0x808; // Vector2D
                 constexpr std::ptrdiff_t m_flLastShatterSoundEmitTime = 0x810; // GameTime_t
                 constexpr std::ptrdiff_t m_flLastCleanupTime = 0x814; // GameTime_t
@@ -9009,7 +9009,7 @@ namespace cs2_dumper {
             // Metadata:
             // NetworkVarNames: m_CPropDataComponent (CPropDataComponent::Storage_t)
             namespace CBreakable {
-                constexpr std::ptrdiff_t m_CPropDataComponent = 0x798; // CPropDataComponent
+                constexpr std::ptrdiff_t m_CPropDataComponent = 0x798; // 
                 constexpr std::ptrdiff_t m_Material = 0x7D8; // Materials
                 constexpr std::ptrdiff_t m_hBreaker = 0x7DC; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_Explosion = 0x7E0; // Explosions
@@ -10958,7 +10958,7 @@ namespace cs2_dumper {
             // NetworkVarNames: m_nBloodType (BloodType)
             namespace CBaseEntity {
                 constexpr std::ptrdiff_t m_CBodyComponent = 0x38; // CBodyComponent*
-                constexpr std::ptrdiff_t m_NetworkTransmitComponent = 0x40; // 
+                constexpr std::ptrdiff_t m_NetworkTransmitComponent = 0x40; // CNetworkTransmitComponent
                 constexpr std::ptrdiff_t m_aThinkFunctions = 0x240; // CUtlVector<thinkfunc_t>
                 constexpr std::ptrdiff_t m_iCurrentThinkContext = 0x258; // int32
                 constexpr std::ptrdiff_t m_nLastThinkTick = 0x25C; // GameTick_t

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -111,7 +111,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_Quads = 0xA8; // CUtlVector<FeQuad_t>
             public const nint m_SimdQuads = 0xC0; // CUtlVector<FeSimdQuad_t>
             public const nint m_SimdTris = 0xD8; // CUtlVector<FeSimdTri_t>
-            public const nint m_SimdRods = 0xF0; // 
+            public const nint m_SimdRods = 0xF0; // CUtlVector<FeSimdRodConstraint_t>
             public const nint m_SimdRodsAnim = 0x108; // CUtlVector<FeSimdRodConstraintAnim_t>
             public const nint m_InitPose = 0x120; // CUtlVector<CTransform>
             public const nint m_Rods = 0x138; // CUtlVector<FeRodConstraint_t>
@@ -639,7 +639,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CRegionSVM {
-            public const nint m_Planes = 0x0; // CUtlVector<RnPlane_t>
+            public const nint m_Planes = 0x0; // 
             public const nint m_Nodes = 0x18; // CUtlVector<uint32>
         }
         // Parent: None
@@ -948,8 +948,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_Vertices = 0x70; // 
             public const nint m_VertexPositions = 0x88; // CUtlVector<Vector>
             public const nint m_Edges = 0xA0; // 
-            public const nint m_Faces = 0xB8; // 
-            public const nint m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
+            public const nint m_Faces = 0xB8; // CUtlVector<RnFace_t>
+            public const nint m_FacePlanes = 0xD0; // 
             public const nint m_nFlags = 0xE8; // uint32
             public const nint m_pRegionSVM = 0xF0; // CRegionSVM*
         }

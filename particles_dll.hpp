@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #pragma once
 
@@ -2639,7 +2639,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bCanFreeze = 0x7E; // bool
                 constexpr std::ptrdiff_t m_LastMin = 0x80; // Vector
                 constexpr std::ptrdiff_t m_LastMax = 0x8C; // Vector
-                constexpr std::ptrdiff_t m_nSplitScreenUser = 0x98; // 
+                constexpr std::ptrdiff_t m_nSplitScreenUser = 0x98; // CSplitScreenSlot
                 constexpr std::ptrdiff_t m_vecAggregationCenter = 0x9C; // Vector
                 constexpr std::ptrdiff_t m_RefCount = 0xC0; // int32
             }
@@ -4109,7 +4109,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleTransformInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // 
+                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleTransformType_t
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_bFollowNamedValue = 0x58; // bool
                 constexpr std::ptrdiff_t m_bSupportsDisabled = 0x59; // bool
@@ -4759,7 +4759,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_InputMagnitude = 0x328; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_nFalloffFunction = 0x488; // ParticleFalloffFunction_t
                 constexpr std::ptrdiff_t m_InputFalloffExp = 0x490; // CPerParticleFloatInput
-                constexpr std::ptrdiff_t m_nImpulseType = 0x5F0; // 
+                constexpr std::ptrdiff_t m_nImpulseType = 0x5F0; // ParticleImpulseType_t
             }
             // Parent: CParticleFunctionForce
             // Field count: 3
@@ -5806,7 +5806,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bNoiseImgPreviewLive = 0xD4; // bool
                 constexpr std::ptrdiff_t m_flNoCameraFallback = 0xE0; // float32
                 constexpr std::ptrdiff_t m_bUseBoundsCenter = 0xE4; // bool
-                constexpr std::ptrdiff_t m_nInputMode = 0xE8; // ParticleFloatInputMode_t
+                constexpr std::ptrdiff_t m_nInputMode = 0xE8; // 
                 constexpr std::ptrdiff_t m_flMultFactor = 0xEC; // float32
                 constexpr std::ptrdiff_t m_flInput0 = 0xF0; // float32
                 constexpr std::ptrdiff_t m_flInput1 = 0xF4; // float32

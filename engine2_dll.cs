@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: engine2.dll
@@ -166,7 +166,7 @@ namespace CS2Dumper.Schemas {
         // Parent: None
         // Field count: 1
         public static class EventProfileStorageAvailable_t {
-            public const nint m_nSplitScreenSlot = 0x0; // 
+            public const nint m_nSplitScreenSlot = 0x0; // CSplitScreenSlot
         }
         // Parent: None
         // Field count: 1

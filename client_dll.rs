@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2341,7 +2341,7 @@ pub mod cs2_dumper {
                 pub const m_hPawn: usize = 0x62C; // CHandle<C_BasePlayerPawn>
                 pub const m_bKnownTeamMismatch: usize = 0x630; // bool
                 pub const m_hPredictedPawn: usize = 0x634; // CHandle<C_BasePlayerPawn>
-                pub const m_nSplitScreenSlot: usize = 0x638; // 
+                pub const m_nSplitScreenSlot: usize = 0x638; // CSplitScreenSlot
                 pub const m_hSplitOwner: usize = 0x63C; // CHandle<CBasePlayerController>
                 pub const m_hSplitScreenPlayers: usize = 0x640; // CUtlVector<CHandle<CBasePlayerController>>
                 pub const m_bIsHLTV: usize = 0x658; // bool
@@ -3117,7 +3117,7 @@ pub mod cs2_dumper {
                 pub const m_Handle: usize = 0x28; // ModelConfigHandle_t
                 pub const m_Name: usize = 0x30; // CUtlSymbolLarge
                 pub const m_AssociatedEntities: usize = 0x38; // C_NetworkUtlVectorBase<CHandle<C_BaseModelEntity>>
-                pub const m_AssociatedEntityNames: usize = 0x50; // 
+                pub const m_AssociatedEntityNames: usize = 0x50; // C_NetworkUtlVectorBase<CUtlSymbolLarge>
             }
             // Parent: C_CSWeaponBaseGun
             // Field count: 0
@@ -3252,8 +3252,8 @@ pub mod cs2_dumper {
                 pub const m_flLuminaireAnisotropy: usize = 0xD50; // float32
                 pub const m_LightStyleString: usize = 0xD58; // CUtlString
                 pub const m_flLightStyleStartTime: usize = 0xD60; // GameTime_t
-                pub const m_QueuedLightStyleStrings: usize = 0xD68; // C_NetworkUtlVectorBase<CUtlString>
-                pub const m_LightStyleEvents: usize = 0xD80; // C_NetworkUtlVectorBase<CUtlString>
+                pub const m_QueuedLightStyleStrings: usize = 0xD68; // 
+                pub const m_LightStyleEvents: usize = 0xD80; // 
                 pub const m_LightStyleTargets: usize = 0xD98; // C_NetworkUtlVectorBase<CHandle<C_BaseModelEntity>>
                 pub const m_StyleEvent: usize = 0xDB0; // CEntityIOOutput[4]
                 pub const m_hLightCookie: usize = 0xE50; // CStrongHandle<InfoForResourceTypeCTextureBase>
@@ -3717,7 +3717,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_DamageList (CDamageRecord)
             pub mod CCSPlayerController_DamageServices {
                 pub const m_nSendUpdate: usize = 0x40; // int32
-                pub const m_DamageList: usize = 0x48; // 
+                pub const m_DamageList: usize = 0x48; // C_UtlVectorEmbeddedNetworkVar<CDamageRecord>
             }
             // Parent: CEntityComponent
             // Field count: 5
@@ -5762,7 +5762,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_nBloodType (BloodType)
             pub mod C_BaseEntity {
                 pub const m_CBodyComponent: usize = 0x38; // CBodyComponent*
-                pub const m_NetworkTransmitComponent: usize = 0x40; // 
+                pub const m_NetworkTransmitComponent: usize = 0x40; // CNetworkTransmitComponent
                 pub const m_nLastThinkTick: usize = 0x320; // GameTick_t
                 pub const m_pGameSceneNode: usize = 0x328; // CGameSceneNode*
                 pub const m_pRenderComponent: usize = 0x330; // CRenderComponent*
@@ -5827,7 +5827,7 @@ pub mod cs2_dumper {
                 pub const m_fBBoxVisFlags: usize = 0x480; // uint8
                 pub const m_bPredictable: usize = 0x481; // bool
                 pub const m_bRenderWithViewModels: usize = 0x482; // bool
-                pub const m_nSplitUserPlayerPredictionSlot: usize = 0x484; // 
+                pub const m_nSplitUserPlayerPredictionSlot: usize = 0x484; // CSplitScreenSlot
                 pub const m_nFirstPredictableCommand: usize = 0x488; // int32
                 pub const m_nLastPredictableCommand: usize = 0x48C; // int32
                 pub const m_hOldMoveParent: usize = 0x490; // CHandle<C_BaseEntity>
@@ -5901,7 +5901,7 @@ pub mod cs2_dumper {
                 pub const m_hBreaker: usize = 0x109C; // CHandle<C_BaseEntity>
                 pub const m_PerformanceMode: usize = 0x10A0; // PerformanceMode_t
                 pub const m_flPreventDamageBeforeTime: usize = 0x10A4; // GameTime_t
-                pub const m_BreakableContentsType: usize = 0x10A8; // BreakableContentsType_t
+                pub const m_BreakableContentsType: usize = 0x10A8; // 
                 pub const m_strBreakableContentsPropGroupOverride: usize = 0x10B0; // CUtlString
                 pub const m_strBreakableContentsParticleOverride: usize = 0x10B8; // CUtlString
                 pub const m_bHasBreakPiecesOrCommands: usize = 0x10C0; // bool
@@ -6611,7 +6611,7 @@ pub mod cs2_dumper {
                 pub const m_flObsInterp_PathLength: usize = 0x74; // float32
                 pub const m_qObsInterp_OrientationStart: usize = 0x80; // Quaternion
                 pub const m_qObsInterp_OrientationTravelDir: usize = 0x90; // Quaternion
-                pub const m_obsInterpState: usize = 0xA0; // ObserverInterpState_t
+                pub const m_obsInterpState: usize = 0xA0; // 
                 pub const m_bObserverInterpolationNeedsDeferredSetup: usize = 0xA4; // bool
             }
             // Parent: C_BaseEntity

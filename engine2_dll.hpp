@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 #pragma once
 
@@ -171,7 +171,7 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 1
             namespace EventProfileStorageAvailable_t {
-                constexpr std::ptrdiff_t m_nSplitScreenSlot = 0x0; // 
+                constexpr std::ptrdiff_t m_nSplitScreenSlot = 0x0; // CSplitScreenSlot
             }
             // Parent: None
             // Field count: 1

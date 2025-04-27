@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -2634,7 +2634,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bCanFreeze = 0x7E; // bool
             public const nint m_LastMin = 0x80; // Vector
             public const nint m_LastMax = 0x8C; // Vector
-            public const nint m_nSplitScreenUser = 0x98; // 
+            public const nint m_nSplitScreenUser = 0x98; // CSplitScreenSlot
             public const nint m_vecAggregationCenter = 0x9C; // Vector
             public const nint m_RefCount = 0xC0; // int32
         }
@@ -4104,7 +4104,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleTransformInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleTransformType_t
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_bFollowNamedValue = 0x58; // bool
             public const nint m_bSupportsDisabled = 0x59; // bool
@@ -4754,7 +4754,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_InputMagnitude = 0x328; // CPerParticleFloatInput
             public const nint m_nFalloffFunction = 0x488; // ParticleFalloffFunction_t
             public const nint m_InputFalloffExp = 0x490; // CPerParticleFloatInput
-            public const nint m_nImpulseType = 0x5F0; // 
+            public const nint m_nImpulseType = 0x5F0; // ParticleImpulseType_t
         }
         // Parent: CParticleFunctionForce
         // Field count: 3
@@ -5801,7 +5801,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bNoiseImgPreviewLive = 0xD4; // bool
             public const nint m_flNoCameraFallback = 0xE0; // float32
             public const nint m_bUseBoundsCenter = 0xE4; // bool
-            public const nint m_nInputMode = 0xE8; // ParticleFloatInputMode_t
+            public const nint m_nInputMode = 0xE8; // 
             public const nint m_flMultFactor = 0xEC; // float32
             public const nint m_flInput0 = 0xF0; // float32
             public const nint m_flInput1 = 0xF4; // float32

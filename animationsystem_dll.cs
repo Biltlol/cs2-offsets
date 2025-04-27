@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-05 12:23:33.703395 UTC
+// 2025-04-27 13:18:00.499869100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -3417,7 +3417,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nYTopDst = 0x2; // int16
             public const nint m_flUWidthSrc = 0x4; // float32
             public const nint m_flVHeightSrc = 0x8; // float32
-            public const nint m_bundleDatas = 0x10; // CUtlVector<CMorphBundleData>
+            public const nint m_bundleDatas = 0x10; // 
         }
         // Parent: None
         // Field count: 5
@@ -3611,7 +3611,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAimMatrixUpdateNode {
-            public const nint m_opFixedSettings = 0x70; // AimMatrixOpFixedSettings_t
+            public const nint m_opFixedSettings = 0x70; // 
             public const nint m_target = 0x158; // AnimVectorSource
             public const nint m_paramIndex = 0x15C; // CAnimParamHandle
             public const nint m_hSequence = 0x160; // HSequence
@@ -3834,7 +3834,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimReplayFrame {
-            public const nint m_inputDataBlocks = 0x10; // 
+            public const nint m_inputDataBlocks = 0x10; // CUtlVector<CUtlBinaryBlock>
             public const nint m_instanceData = 0x28; // CUtlBinaryBlock
             public const nint m_startingLocalToWorldTransform = 0x40; // CTransform
             public const nint m_localToWorldTransform = 0x60; // CTransform
@@ -4895,7 +4895,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CFlexRule {
             public const nint m_nFlex = 0x0; // int32
-            public const nint m_FlexOps = 0x8; // CUtlVector<CFlexOp>
+            public const nint m_FlexOps = 0x8; // 
         }
         // Parent: None
         // Field count: 5
