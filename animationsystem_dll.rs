@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-27 13:18:00.499869100 UTC
+// 2025-05-08 11:27:35.635808200 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2810,7 +2810,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CSeqSynthAnimDesc {
                 pub const m_sName: usize = 0x0; // CBufferString
-                pub const m_flags: usize = 0x10; // CSeqSeqDescFlag
+                pub const m_flags: usize = 0x10; // 
                 pub const m_transition: usize = 0x1C; // 
                 pub const m_nLocalBaseReference: usize = 0x24; // int16
                 pub const m_nLocalBoneMask: usize = 0x26; // int16
@@ -3514,7 +3514,7 @@ pub mod cs2_dumper {
                 pub const m_nYTopDst: usize = 0x2; // int16
                 pub const m_flUWidthSrc: usize = 0x4; // float32
                 pub const m_flVHeightSrc: usize = 0x8; // float32
-                pub const m_bundleDatas: usize = 0x10; // 
+                pub const m_bundleDatas: usize = 0x10; // CUtlVector<CMorphBundleData>
             }
             // Parent: None
             // Field count: 5
@@ -3708,7 +3708,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAimMatrixUpdateNode {
-                pub const m_opFixedSettings: usize = 0x70; // 
+                pub const m_opFixedSettings: usize = 0x70; // AimMatrixOpFixedSettings_t
                 pub const m_target: usize = 0x158; // AnimVectorSource
                 pub const m_paramIndex: usize = 0x15C; // CAnimParamHandle
                 pub const m_hSequence: usize = 0x160; // HSequence
@@ -4558,7 +4558,7 @@ pub mod cs2_dumper {
                 pub const m_nLocalCyclePoseParameter: usize = 0x60; // int32
                 pub const m_bCalculatePoseParameters: usize = 0x64; // bool
                 pub const m_bFixedBlendWeight: usize = 0x65; // bool
-                pub const m_flFixedBlendWeightVals: usize = 0x68; // float32[2]
+                pub const m_flFixedBlendWeightVals: usize = 0x68; // 
             }
             // Parent: None
             // Field count: 11
@@ -4762,7 +4762,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CSeqS1SeqDesc {
                 pub const m_sName: usize = 0x0; // CBufferString
-                pub const m_flags: usize = 0x10; // CSeqSeqDescFlag
+                pub const m_flags: usize = 0x10; // 
                 pub const m_fetch: usize = 0x20; // CSeqMultiFetch
                 pub const m_nLocalWeightlist: usize = 0x90; // int32
                 pub const m_autoLayerArray: usize = 0x98; // CUtlVector<CSeqAutoLayer>
@@ -5563,7 +5563,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CSeqCmdSeqDesc {
                 pub const m_sName: usize = 0x0; // CBufferString
-                pub const m_flags: usize = 0x10; // CSeqSeqDescFlag
+                pub const m_flags: usize = 0x10; // 
                 pub const m_transition: usize = 0x1C; // 
                 pub const m_nFrameRangeSequence: usize = 0x24; // int16
                 pub const m_nFrameCount: usize = 0x26; // int16

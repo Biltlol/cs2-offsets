@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-27 13:18:00.499869100 UTC
+// 2025-05-08 11:27:35.635808200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -2713,7 +2713,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CSeqSynthAnimDesc {
             public const nint m_sName = 0x0; // CBufferString
-            public const nint m_flags = 0x10; // CSeqSeqDescFlag
+            public const nint m_flags = 0x10; // 
             public const nint m_transition = 0x1C; // 
             public const nint m_nLocalBaseReference = 0x24; // int16
             public const nint m_nLocalBoneMask = 0x26; // int16
@@ -3417,7 +3417,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nYTopDst = 0x2; // int16
             public const nint m_flUWidthSrc = 0x4; // float32
             public const nint m_flVHeightSrc = 0x8; // float32
-            public const nint m_bundleDatas = 0x10; // 
+            public const nint m_bundleDatas = 0x10; // CUtlVector<CMorphBundleData>
         }
         // Parent: None
         // Field count: 5
@@ -3611,7 +3611,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAimMatrixUpdateNode {
-            public const nint m_opFixedSettings = 0x70; // 
+            public const nint m_opFixedSettings = 0x70; // AimMatrixOpFixedSettings_t
             public const nint m_target = 0x158; // AnimVectorSource
             public const nint m_paramIndex = 0x15C; // CAnimParamHandle
             public const nint m_hSequence = 0x160; // HSequence
@@ -4461,7 +4461,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nLocalCyclePoseParameter = 0x60; // int32
             public const nint m_bCalculatePoseParameters = 0x64; // bool
             public const nint m_bFixedBlendWeight = 0x65; // bool
-            public const nint m_flFixedBlendWeightVals = 0x68; // float32[2]
+            public const nint m_flFixedBlendWeightVals = 0x68; // 
         }
         // Parent: None
         // Field count: 11
@@ -4665,7 +4665,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CSeqS1SeqDesc {
             public const nint m_sName = 0x0; // CBufferString
-            public const nint m_flags = 0x10; // CSeqSeqDescFlag
+            public const nint m_flags = 0x10; // 
             public const nint m_fetch = 0x20; // CSeqMultiFetch
             public const nint m_nLocalWeightlist = 0x90; // int32
             public const nint m_autoLayerArray = 0x98; // CUtlVector<CSeqAutoLayer>
@@ -5466,7 +5466,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CSeqCmdSeqDesc {
             public const nint m_sName = 0x0; // CBufferString
-            public const nint m_flags = 0x10; // CSeqSeqDescFlag
+            public const nint m_flags = 0x10; // 
             public const nint m_transition = 0x1C; // 
             public const nint m_nFrameRangeSequence = 0x24; // int16
             public const nint m_nFrameCount = 0x26; // int16

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-27 13:18:00.499869100 UTC
+// 2025-05-08 11:27:35.635808200 UTC
 
 #pragma once
 
@@ -2718,7 +2718,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CSeqSynthAnimDesc {
                 constexpr std::ptrdiff_t m_sName = 0x0; // CBufferString
-                constexpr std::ptrdiff_t m_flags = 0x10; // CSeqSeqDescFlag
+                constexpr std::ptrdiff_t m_flags = 0x10; // 
                 constexpr std::ptrdiff_t m_transition = 0x1C; // 
                 constexpr std::ptrdiff_t m_nLocalBaseReference = 0x24; // int16
                 constexpr std::ptrdiff_t m_nLocalBoneMask = 0x26; // int16
@@ -3422,7 +3422,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nYTopDst = 0x2; // int16
                 constexpr std::ptrdiff_t m_flUWidthSrc = 0x4; // float32
                 constexpr std::ptrdiff_t m_flVHeightSrc = 0x8; // float32
-                constexpr std::ptrdiff_t m_bundleDatas = 0x10; // 
+                constexpr std::ptrdiff_t m_bundleDatas = 0x10; // CUtlVector<CMorphBundleData>
             }
             // Parent: None
             // Field count: 5
@@ -3616,7 +3616,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CAimMatrixUpdateNode {
-                constexpr std::ptrdiff_t m_opFixedSettings = 0x70; // 
+                constexpr std::ptrdiff_t m_opFixedSettings = 0x70; // AimMatrixOpFixedSettings_t
                 constexpr std::ptrdiff_t m_target = 0x158; // AnimVectorSource
                 constexpr std::ptrdiff_t m_paramIndex = 0x15C; // CAnimParamHandle
                 constexpr std::ptrdiff_t m_hSequence = 0x160; // HSequence
@@ -4466,7 +4466,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nLocalCyclePoseParameter = 0x60; // int32
                 constexpr std::ptrdiff_t m_bCalculatePoseParameters = 0x64; // bool
                 constexpr std::ptrdiff_t m_bFixedBlendWeight = 0x65; // bool
-                constexpr std::ptrdiff_t m_flFixedBlendWeightVals = 0x68; // float32[2]
+                constexpr std::ptrdiff_t m_flFixedBlendWeightVals = 0x68; // 
             }
             // Parent: None
             // Field count: 11
@@ -4670,7 +4670,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CSeqS1SeqDesc {
                 constexpr std::ptrdiff_t m_sName = 0x0; // CBufferString
-                constexpr std::ptrdiff_t m_flags = 0x10; // CSeqSeqDescFlag
+                constexpr std::ptrdiff_t m_flags = 0x10; // 
                 constexpr std::ptrdiff_t m_fetch = 0x20; // CSeqMultiFetch
                 constexpr std::ptrdiff_t m_nLocalWeightlist = 0x90; // int32
                 constexpr std::ptrdiff_t m_autoLayerArray = 0x98; // CUtlVector<CSeqAutoLayer>
@@ -5471,7 +5471,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CSeqCmdSeqDesc {
                 constexpr std::ptrdiff_t m_sName = 0x0; // CBufferString
-                constexpr std::ptrdiff_t m_flags = 0x10; // CSeqSeqDescFlag
+                constexpr std::ptrdiff_t m_flags = 0x10; // 
                 constexpr std::ptrdiff_t m_transition = 0x1C; // 
                 constexpr std::ptrdiff_t m_nFrameRangeSequence = 0x24; // int16
                 constexpr std::ptrdiff_t m_nFrameCount = 0x26; // int16
